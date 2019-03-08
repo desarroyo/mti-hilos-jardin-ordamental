@@ -12,7 +12,7 @@ Aquí es importante notar que los dos torniquetes son objetos que existen y se c
 Se simulará un experimento en el que 20 visitantes ingresan por cada torniquete. 
 Al final de la simulación deberá haber 40 visitantes contados.
 
-
+[![N|Solid](http://vakito.com/mti/assets/gran-jardin.jpg)](https://nodesource.com/products/nsolid)
 
 
 ### Todos
