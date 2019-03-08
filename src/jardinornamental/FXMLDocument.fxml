@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="559.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jardinornamental.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane prefHeight="677.0" prefWidth="478.0" style="-fx-background-color: #E0E0E0;">
+         <children>
+            <Pane layoutX="33.0" layoutY="247.0" prefHeight="385.0" prefWidth="413.0" style="-fx-background-color: gray;">
+               <children>
+                  <Pane layoutX="10.0" layoutY="9.0" prefHeight="367.0" prefWidth="394.0" style="-fx-background-color: #00C853;">
+                     <children>
+                        <Pane layoutX="21.0" layoutY="200.0" prefHeight="145.0" prefWidth="312.0" style="-fx-background-color: #0277BD;">
+                           <children>
+                              <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="-29.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/tree.png" />
+                                 </image>
+                              </ImageView>
+                              <Pane fx:id="pnFlores1" layoutX="14.0" layoutY="14.0" prefHeight="64.0" prefWidth="88.0" style="-fx-background-color: #0277BD;">
+                                 <children>
+                                    <ImageView fitHeight="25.0" fitWidth="35.0" layoutX="18.0" layoutY="7.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/flower_water.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="25.0" fitWidth="35.0" layoutX="39.0" layoutY="7.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/flower_water.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="25.0" fitWidth="35.0" layoutX="27.0" layoutY="20.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/flower_water.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <Pane fx:id="pnFlores2" layoutX="210.0" layoutY="73.0" prefHeight="64.0" prefWidth="88.0" style="-fx-background-color: #0277BD;">
+                                 <children>
+                                    <ImageView fitHeight="25.0" fitWidth="35.0" layoutX="18.0" layoutY="7.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/flower_water.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="25.0" fitWidth="35.0" layoutX="39.0" layoutY="7.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/flower_water.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="25.0" fitWidth="35.0" layoutX="27.0" layoutY="20.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@assets/flower_water.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </Pane>
+                              <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="280.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/tree.png" />
+                                 </image>
+                              </ImageView>
+                           </children></Pane>
+                        <Pane layoutX="9.0" layoutY="110.0" prefHeight="92.0" prefWidth="346.0">
+                           <children>
+                              <ImageView fx:id="in40" fitHeight="35.0" fitWidth="46.0" layoutX="-1.0" layoutY="-1.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in39" fitHeight="35.0" fitWidth="46.0" layoutX="15.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in38" fitHeight="35.0" fitWidth="46.0" layoutX="31.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in37" fitHeight="35.0" fitWidth="46.0" layoutX="47.0" layoutY="1.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in36" fitHeight="35.0" fitWidth="46.0" layoutX="62.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in35" fitHeight="35.0" fitWidth="46.0" layoutX="78.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in34" fitHeight="35.0" fitWidth="46.0" layoutX="94.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in33" fitHeight="35.0" fitWidth="46.0" layoutX="110.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in32" fitHeight="35.0" fitWidth="46.0" layoutX="126.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in31" fitHeight="35.0" fitWidth="46.0" layoutX="142.0" layoutY="1.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in30" fitHeight="35.0" fitWidth="46.0" layoutX="158.0" layoutY="1.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in29" fitHeight="35.0" fitWidth="46.0" layoutX="174.0" layoutY="2.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in28" fitHeight="35.0" fitWidth="46.0" layoutX="189.0" layoutY="1.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in27" fitHeight="35.0" fitWidth="46.0" layoutX="205.0" layoutY="1.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in26" fitHeight="35.0" fitWidth="46.0" layoutX="221.0" layoutY="1.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in25" fitHeight="35.0" fitWidth="46.0" layoutX="237.0" layoutY="1.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in24" fitHeight="35.0" fitWidth="46.0" layoutX="254.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in23" fitHeight="35.0" fitWidth="46.0" layoutX="270.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in22" fitHeight="35.0" fitWidth="46.0" layoutX="286.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in21" fitHeight="35.0" fitWidth="46.0" layoutX="302.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in20" fitHeight="35.0" fitWidth="46.0" layoutX="-1.0" layoutY="37.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in19" fitHeight="35.0" fitWidth="46.0" layoutX="15.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in18" fitHeight="35.0" fitWidth="46.0" layoutX="31.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in17" fitHeight="35.0" fitWidth="46.0" layoutX="47.0" layoutY="39.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in16" fitHeight="35.0" fitWidth="46.0" layoutX="62.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in15" fitHeight="35.0" fitWidth="46.0" layoutX="78.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in14" fitHeight="35.0" fitWidth="46.0" layoutX="94.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in13" fitHeight="35.0" fitWidth="46.0" layoutX="110.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in12" fitHeight="35.0" fitWidth="46.0" layoutX="126.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in11" fitHeight="35.0" fitWidth="46.0" layoutX="142.0" layoutY="39.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in10" fitHeight="35.0" fitWidth="46.0" layoutX="158.0" layoutY="39.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in9" fitHeight="35.0" fitWidth="46.0" layoutX="174.0" layoutY="40.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in8" fitHeight="35.0" fitWidth="46.0" layoutX="189.0" layoutY="39.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in7" fitHeight="35.0" fitWidth="46.0" layoutX="205.0" layoutY="39.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in6" fitHeight="35.0" fitWidth="46.0" layoutX="221.0" layoutY="39.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in5" fitHeight="35.0" fitWidth="46.0" layoutX="237.0" layoutY="39.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in4" fitHeight="35.0" fitWidth="46.0" layoutX="254.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in3" fitHeight="35.0" fitWidth="46.0" layoutX="270.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in2" fitHeight="35.0" fitWidth="46.0" layoutX="286.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="in1" fitHeight="35.0" fitWidth="46.0" layoutX="302.0" layoutY="38.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/person.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="67.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/bush.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="226.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/bush.png" />
+                           </image>
+                        </ImageView>
+                        <Pane fx:id="pnBushes" layoutX="5.0" layoutY="7.0" prefHeight="64.0" prefWidth="312.0" style="-fx-background-color: #00C853;">
+                           <children>
+                              <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/bush.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="72.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/bush.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="136.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/bush.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="210.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@assets/bush.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="43.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/tree.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="107.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/tree.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="173.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/tree.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="244.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/tree.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="lblContadorVisitantesDer" alignment="CENTER" layoutX="352.0" layoutY="5.0" opacity="0.43" prefHeight="17.0" prefWidth="35.0" text="0" textAlignment="CENTER">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label fx:id="lblContadorVisitantesIzq" alignment="CENTER" layoutX="290.0" layoutY="5.0" opacity="0.43" prefHeight="17.0" prefWidth="35.0" text="0" textAlignment="CENTER">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Label layoutX="402.0" layoutY="635.0" text="EXIT" />
+            <Button fx:id="btnTest" layoutX="344.0" layoutY="45.0" mnemonicParsing="false" onAction="#onTest" opacity="0.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #00C853; -fx-text-fill: white;" text="Comenzar" />
+            <Pane layoutX="33.0" layoutY="204.0" prefHeight="43.0" prefWidth="248.0" style="-fx-background-color: white;">
+               <children>
+                  <Label alignment="CENTER" layoutX="13.0" layoutY="3.0" prefHeight="35.0" prefWidth="226.0" text="Gran Jardín Ordamental" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pnTorniquete2" layoutX="392.0" layoutY="218.0" prefHeight="34.0" prefWidth="39.0" style="-fx-background-color: gray;">
+               <children>
+                  <Label fx:id="lblTorniquete2" alignment="CENTER" layoutX="-1.0" prefHeight="35.0" prefWidth="39.0" text="+" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pnTorniquete1" layoutX="331.0" layoutY="218.0" prefHeight="34.0" prefWidth="39.0" style="-fx-background-color: gray;">
+               <children>
+                  <Label fx:id="lblTorniquete1" alignment="CENTER" layoutX="-1.0" prefHeight="35.0" prefWidth="39.0" text="+" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <ImageView fitHeight="25.0" fitWidth="23.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="39.0" layoutY="17.0" text="x" />
+            <Label layoutX="23.0" layoutY="37.0" text="Contador Asistentes" />
+            <Label fx:id="lblContadorVisitantes" layoutX="53.0" layoutY="17.0" prefHeight="17.0" prefWidth="78.0" text="0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <ImageView fx:id="ci0" fitHeight="35.0" fitWidth="46.0" layoutX="331.0" layoutY="181.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c0" fitHeight="35.0" fitWidth="46.0" layoutX="396.0" layoutY="181.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c1" fitHeight="35.0" fitWidth="46.0" layoutX="396.0" layoutY="136.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c2" fitHeight="35.0" fitWidth="46.0" layoutX="366.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c3" fitHeight="35.0" fitWidth="46.0" layoutX="333.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c4" fitHeight="35.0" fitWidth="46.0" layoutX="298.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c5" fitHeight="35.0" fitWidth="46.0" layoutX="263.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c6" fitHeight="35.0" fitWidth="46.0" layoutX="230.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c7" fitHeight="35.0" fitWidth="46.0" layoutX="195.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c8" fitHeight="35.0" fitWidth="46.0" layoutX="160.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c9" fitHeight="35.0" fitWidth="46.0" layoutX="127.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c10" fitHeight="35.0" fitWidth="46.0" layoutX="92.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c11" fitHeight="35.0" fitWidth="46.0" layoutX="61.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c12" fitHeight="35.0" fitWidth="46.0" layoutX="28.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c13" fitHeight="35.0" fitWidth="46.0" layoutX="-7.0" layoutY="111.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="346.0" layoutY="17.0" text="Tiempo" />
+            <Label fx:id="lblContadorTiempo" alignment="CENTER_RIGHT" layoutX="393.0" layoutY="17.0" prefHeight="17.0" prefWidth="35.0" text="0" textAlignment="RIGHT" />
+            <Label layoutX="432.0" layoutY="17.0" text="seg" />
+            <ImageView fx:id="ci1" fitHeight="35.0" fitWidth="46.0" layoutX="330.0" layoutY="144.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci2" fitHeight="35.0" fitWidth="46.0" layoutX="306.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci3" fitHeight="35.0" fitWidth="46.0" layoutX="271.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci4" fitHeight="35.0" fitWidth="46.0" layoutX="238.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci5" fitHeight="35.0" fitWidth="46.0" layoutX="203.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci6" fitHeight="35.0" fitWidth="46.0" layoutX="168.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci7" fitHeight="35.0" fitWidth="46.0" layoutX="135.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci8" fitHeight="35.0" fitWidth="46.0" layoutX="100.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci9" fitHeight="35.0" fitWidth="46.0" layoutX="69.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci10" fitHeight="35.0" fitWidth="46.0" layoutX="36.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci11" fitHeight="35.0" fitWidth="46.0" layoutX="1.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/person.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
